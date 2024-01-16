@@ -6,7 +6,7 @@ Connect your Desktop to the internet and make sure DNS is configured properly
 sudo apt-get install openssh-server
 sudo apt-get update
 sudo apt-get install -y git curl
-sudo git clone https://github.com/stevevoto/idp-trafficGen2
+sudo git clone https://github.com/stevevoto/idp-trafficgen2
 cd trafficGen2
 chmod 755 install.sh 
 Run ./install.sh
