@@ -7,7 +7,7 @@ sudo apt-get install openssh-server
 sudo apt-get update
 sudo apt-get install -y git curl
 sudo git clone https://github.com/stevevoto/idp-trafficgen2
-cd trafficgen2
+cd idp-trafficgen2
 chmod 755 install.sh 
 Run ./install.sh
 When Complete check sytemctl is-active idp-trafficgen.service
