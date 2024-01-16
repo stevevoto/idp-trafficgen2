@@ -1,0 +1,14 @@
+[Unit]
+Description=generation of IDP traffic
+
+[Service]
+# Command to execute when the service is started
+User=webtrafficgen
+ExecStart=/usr/bin/python2 /usr/bin/idp-traffgen.py
+
+# optional items below
+Restart=always
+RestartSec=3
+
+[Install]
+WantedBy=multi-user.target
