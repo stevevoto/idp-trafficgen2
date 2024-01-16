@@ -1,4 +1,4 @@
-# idp-trafficgen2
+1.# idp-trafficgen2
        
 Download and install the Ubuntu 18.0.4 located here https://releases.ubuntu.com/18.04/ubuntu-18.04.6-desktop-amd64.iso.  
 ssh to your device with your username/passwd and sudu su to root
