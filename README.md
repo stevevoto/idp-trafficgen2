@@ -8,6 +8,6 @@ sudo apt-get update
 sudo apt-get install -y git curl
 sudo git clone https://github.com/stevevoto/idp-trafficGen2
 cd trafficGen2
-chmod install.sh 
-Run ./nstall.sh
+chmod 755 install.sh 
+Run ./install.sh
 When Complete check sytemctl is-active idp-trafficgen.service
