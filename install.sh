@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+apt-get -y update
 apt-get -y install python2
 #yum -y install python2
 useradd -m webtrafficgen
