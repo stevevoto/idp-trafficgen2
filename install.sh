@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 apt-get -y install python2
-yum -y install python2
+#yum -y install python2
 useradd -m webtrafficgen
 chmod 755 idp-traffgen.py
 idp-trafficgen.py /usr/bin/
