@@ -1,6 +1,7 @@
 # idp-trafficgen2
        
 1.Download and install the Ubuntu 18.0.4 located here https://releases.ubuntu.com/18.04/ubuntu-18.04.6-desktop-amd64.iso.  
+
 2.ssh to your device with your username/passwd and sudu su to root
 3.Connect your Desktop to the internet and make sure DNS is configured properly
 4.sudo apt-get install openssh-server
